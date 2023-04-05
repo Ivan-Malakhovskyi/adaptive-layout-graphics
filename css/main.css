@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  color: var(--main-text-color);
+  color: #434455;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -420,11 +420,6 @@ template {
 
 .link-header-studio {
   color: #2e2f42;
-}
-
-.item-list {
-  color: #2e2f42;
-  text-decoration: none;
 }
 
 /**-------------------- Header--------------------- */

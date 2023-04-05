@@ -1116,3 +1116,24 @@ img {
   width: 10px;
   height: 8px;
 }
+
+/* @media (min-width: 900px) {
+  body {
+    background-color: green;
+  }
+} */
+
+/* @media only not screen only and not (max-width: 200px), (min-width: 600px) {
+  
+}
+
+@media not print and (max-width: 500px) {
+body {
+  background-color: #31d0aa;
+}
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .box {
+    background-image: url(../images/hero-img.jpg);
+  }  */

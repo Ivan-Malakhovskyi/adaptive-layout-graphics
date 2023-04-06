@@ -35,6 +35,10 @@ body {
   padding-right: 24px;
 }
 
+.nav-site .link.current {
+  color: #4d5ae5;
+}
+
 .link-icon {
   width: 16px;
   height: 16px;
@@ -105,7 +109,7 @@ body {
 }
 
 .contact-main {
-  margin-top: 80px;
+  margin-top: 284px;
 }
 
 .link-contact {

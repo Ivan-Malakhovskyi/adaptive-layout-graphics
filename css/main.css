@@ -132,6 +132,7 @@ body {
   gap: 56px;
   padding: 0;
   list-style: none;
+  margin-bottom: 0;
 }
 
 .soc-link-ing {

@@ -7,6 +7,8 @@
     .adress-list {
         display: none;
     }
+        
+        
 }
 
 // 0 - 1199
@@ -193,12 +195,12 @@
         }
     
         .page-header-container {
-            padding-left: 0;
-            padding-right: 0;
+            padding-left: 15px;
+            padding-right: 15px;
         }
 
+       
 
-        
 }
 
 @media screen and (min-width: 1200px) {
@@ -220,6 +222,8 @@
  }
 
 }
+
+
 
 
 

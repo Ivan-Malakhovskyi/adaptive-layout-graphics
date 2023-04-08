@@ -1,0 +1,39 @@
+
+
+@media screen and (min-width: 1199px) {
+    
+.container {
+    padding: 0 15px;
+}
+
+    .our-work {
+            display: flex;
+           
+        }
+    
+        .devices .list-works+.list-works {
+            margin-left: 24px;
+        }
+    
+        .section {
+            color: $title-text-color;
+           
+        }
+    
+        .section-sec {
+            padding-bottom: 120px;
+          
+        }
+    
+        .section-subject {
+            margin-top: 0;
+            margin-bottom: 72px;
+    
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+        }
+}

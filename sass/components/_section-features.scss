@@ -41,11 +41,12 @@
             letter-spacing: 0.02em;
         }
     
-        .item-section-features {
-            margin-bottom: 72px;
-        }
+       
+           .item-section-features:not(:last-child) {
+               margin-bottom: 72px;
+           }
 
-              
+           
                  
 }
 
@@ -94,6 +95,8 @@
                 letter-spacing: 0.02em;
     }
 
+    
+
 }
 
 @media screen and (max-width: 1199px) {
@@ -102,19 +105,19 @@
     }
 
         
-    
+         .section-sec {
+             display: none;
+         }
 }
 
 @media screen and (max-width: 767px) and (max-width: 1199px){
-    .container-list {
-             
-            
-        }
-
+   
         .main-section {
 
             flex-wrap: wrap;
         }
+
+
 }
 
 

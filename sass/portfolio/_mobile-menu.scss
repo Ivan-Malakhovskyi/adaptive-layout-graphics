@@ -1,4 +1,8 @@
 @media screen and (max-width: 767px) {
+
+        .team-icon-list {
+                margin-top: 40px;
+            }
     .mobile-menu {
         position: fixed;
         width: 100%;
@@ -95,9 +99,7 @@ overflow-y: scroll;
 
 
 
-  .team-soc {
-    margin-top: 40px;
-  }
+
 
     .nav-site .item+.item {
         margin-top: 40px;
@@ -132,7 +134,7 @@ overflow-y: scroll;
         display: block;
         font-style: normal;
         font-weight: 700;
-        font-size: 24px;
+        font-size: 36px;
         line-height: 1.111;
         letter-spacing: 0.02em;
         color: $accent-color;
@@ -183,4 +185,21 @@ overflow-y: scroll;
 
     }
 
+}
+
+@media screen and (max-width: 420px) {
+ 
+        .link-contact-main {
+                display: block;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 1.111;
+                letter-spacing: 0.02em;
+                color: $accent-color;
+                text-decoration: none;
+        
+        
+            }
+    
 }

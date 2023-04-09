@@ -42,6 +42,9 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .team-icon-list {
+    margin-top: 40px;
+  }
   .mobile-menu {
     position: fixed;
     width: 100%;
@@ -123,9 +126,6 @@ body {
   .contact-main {
     margin-bottom: 40px;
   }
-  .team-soc {
-    margin-top: 40px;
-  }
   .nav-site .item + .item {
     margin-top: 40px;
   }
@@ -149,7 +149,7 @@ body {
     display: block;
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 36px;
     line-height: 1.111;
     letter-spacing: 0.02em;
     color: #4d5ae5;
@@ -193,6 +193,18 @@ body {
     padding: 0;
     border: none;
     background-color: transparent;
+  }
+}
+@media screen and (max-width: 420px) {
+  .link-contact-main {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.111;
+    letter-spacing: 0.02em;
+    color: #4d5ae5;
+    text-decoration: none;
   }
 }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -909,7 +921,7 @@ template {
 }
 @media screen and (max-width: 767px) {
   .hero-title {
-    width: 320px;
+    max-width: 320px;
     font-size: 36px;
     line-height: 1.111;
   }
@@ -1538,8 +1550,6 @@ template {
   }
   .set-team-cards {
     padding: 32px 16px;
-    width: 264px;
-    height: 168px;
     text-align: center;
     background-color: #ffffff;
     border: 1px solid #e7e9fc;
@@ -1614,8 +1624,6 @@ template {
   }
   .set-team-cards {
     padding: 32px 16px;
-    width: 264px;
-    height: 168px;
     text-align: center;
     background-color: #ffffff;
     border: 1px solid #e7e9fc;
@@ -1949,6 +1957,9 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .team-icon-list {
+    margin-top: 40px;
+  }
   .mobile-menu {
     position: fixed;
     width: 100%;
@@ -2030,9 +2041,6 @@ body {
   .contact-main {
     margin-bottom: 40px;
   }
-  .team-soc {
-    margin-top: 40px;
-  }
   .nav-site .item + .item {
     margin-top: 40px;
   }
@@ -2056,7 +2064,7 @@ body {
     display: block;
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 36px;
     line-height: 1.111;
     letter-spacing: 0.02em;
     color: #4d5ae5;
@@ -2099,6 +2107,18 @@ body {
     padding: 0;
     border: none;
     background-color: transparent;
+  }
+}
+@media screen and (max-width: 420px) {
+  .link-contact-main {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.111;
+    letter-spacing: 0.02em;
+    color: #4d5ae5;
+    text-decoration: none;
   }
 }
 /* *-----------------Buttons------------ */

@@ -13,7 +13,9 @@
 }
 
 
-
+.hero-background {
+    padding: 0;
+}
 
 
 .button-hero {
@@ -51,30 +53,30 @@
 
     }
 
-         @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
-         screen and (min-resolution: 192dpi) and (max-width: 767px),
-         screen and (min-resolution: 2dppx) and (max-width: 767px) {
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px) {
 
          
     
-             .hero {
-                 background-image: $grad-hero, url(../images/mob@2x.jpg);
-                 max-width: 480px;
-             }
+.hero {
+ background-image: $grad-hero, url(../images/mob@2x.jpg);
+ max-width: 480px;
+}
          }
 
 @media screen  and (min-width: 768px) {
 
-    .hero {
+.hero {
         background-image: $grad-hero, url(../images/tab1x.jpg);
-    }
+}
 
-        @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-        screen and (min-resolution: 192dpi) and (min-width: 768px),
-        screen and (min-resolution: 2dppx) and (min-width: 768px) {
+ @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+ screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px) {
     
-            .hero {
-                background-image: $grad-hero, url(../images/tab@2x.jpg);
+.hero {
+ background-image: $grad-hero, url(../images/tab@2x.jpg);
             }
         }
 
@@ -100,13 +102,13 @@
 }
 
 @media screen and (max-width: 767px) {
-    .hero {
-        max-width: 480px;
-    }
+    // .hero {
+    //     max-width: 480px;
+    // }
     
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px)  and (max-width: 1199px) {
     .hero {
         max-width: 768px;
     }
@@ -115,7 +117,7 @@
 
 @media screen and (min-width: 1200px) {
     .hero {
-        max-width: 1200px;
+        min-width: 1200px;
     }
 
 }

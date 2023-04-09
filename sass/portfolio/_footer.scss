@@ -1,4 +1,3 @@
-
 .vissually-hidden {
     position: absolute;
     width: 1px;
@@ -32,7 +31,7 @@
 .footer-logo .link-footer {
     display: block;
     margin-bottom: 18px;
-    
+
 }
 
 .footer-studio {
@@ -104,7 +103,7 @@
 .form-user-email {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
 .btn-submit {
@@ -140,7 +139,7 @@
 
 
 
-.form-user-email:focus-within > .input-footer {
+.form-user-email:focus-within>.input-footer {
     border-color: $form-focus-form;
     outline: none;
 }
@@ -170,70 +169,72 @@
     .footer-logo {
         margin-bottom: 72px;
     }
-    
-.footer-top {
+
+    .footer-top {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        
+
     }
 
-   .footer-soc {
-    margin-bottom: 72px;
-   }
+    .footer-soc {
+        margin-bottom: 72px;
+    }
 
     .form-footer {
         display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
-    .subcribe, .form-user-email,  .footer-subject {
+    .subcribe,
+    .form-user-email,
+    .footer-subject {
         display: flex;
         justify-content: center;
     }
 
-        .footer-logo .link-footer {
-            display: flex;
-            justify-content: center;
-        }
+    .footer-logo .link-footer {
+        display: flex;
+        justify-content: center;
+    }
 
-.form-user-email {
-    align-items: center;
-}
-    
+    .form-user-email {
+        align-items: center;
+    }
+
 }
 
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-    
 
 
 
- .footer-top {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 72px;
-    width: 552px;
 
-}
+    .footer-top {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 72px;
+        width: 552px;
 
- .input-footer {
-    margin: 0;
-    width: 264px;
-    height: 40px;
- }
+    }
+
+    .input-footer {
+        margin: 0;
+        width: 264px;
+        height: 40px;
+    }
 
 
 }
 
 @media screen and (min-width: 1200px) {
-    
 
-.footer-top {
+
+    .footer-top {
         display: flex;
     }
 
@@ -250,30 +251,30 @@
         width: 264px;
     }
 
-.btn-submit {
-    cursor: pointer;
-}
+    .btn-submit {
+        cursor: pointer;
+    }
 
 
 
 
     .footer-link:hover,
-        .footer-link:focus {
+    .footer-link:focus {
         background-color: $bgd-color-icon;
-        }
+    }
 
-     .form-footer {
+    .form-footer {
         margin-left: auto;
-                }
+    }
 
     .btn-submit:hover,
     .btn-submit:focus {
-    background-color: $button-focus;    
-    box-shadow: $btn-form-shadow;
-                }
+        background-color: $button-focus;
+        box-shadow: $btn-form-shadow;
+    }
 
-                .input-footer {
-                    margin: 0;
-                }
+    .input-footer {
+        margin: 0;
+    }
 
 }

@@ -11,6 +11,11 @@
         
 }
 
+.main-nav .link-logo {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: inline-block;
+}
 
 
 .page-header {
@@ -183,7 +188,7 @@
         }
     
         .page-header-container {
-            padding: 0;
+            
             padding-left: 15px;
             padding-right: 15px;
         }
@@ -209,6 +214,10 @@
     padding-top: 24px;
     padding-bottom: 24px;
  }
+
+  .link-contact {
+      font-size: 16px;
+  }
 
 }
 

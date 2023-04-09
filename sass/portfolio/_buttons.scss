@@ -1,0 +1,56 @@
+/* *-----------------Buttons------------ */
+
+.section-btn-list {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.section-item {
+  margin-bottom: 72px;
+}
+.main-btn-list {
+  display: flex;
+ flex-wrap: wrap;
+
+}
+
+.main-btn-list .portfolio-btn + .portfolio-btn {
+  margin-left: 24px;
+}
+
+// .btn-item {
+//   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//     color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+// }
+
+.btn-item:hover,
+.btn-item:focus {
+  box-shadow: $portfolio-buttons-shadow;
+}
+
+.btn-item {
+  padding: 12px 24px;
+
+  color: $accent-color;
+  background-color: $additional-background-color;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid $footer-text-color;
+}
+
+.btn-item:hover,
+.btn-item:focus {
+  color: $main-bgrnd-color;
+  background-color: $accent-page-color;
+
+  border-color: transparent;
+}

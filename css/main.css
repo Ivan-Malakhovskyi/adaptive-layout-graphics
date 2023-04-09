@@ -1562,8 +1562,11 @@ template {
 }
 @media screen and (min-width: 768px) {
   .container-team {
+    width: 768px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .container-list {
     padding-bottom: 0;
@@ -1675,6 +1678,11 @@ template {
   .soc-link-ing:hover,
   .soc-link-ing:focus {
     background-color: #404bbf;
+  }
+  .container-team {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .vissually-hidden {

@@ -10,8 +10,17 @@
 .main-btn-list {
   display: flex;
  flex-wrap: wrap;
+  row-gap: 16px;
+  align-content: flex-start;
+ 
 
 }
+
+.main-btn-list .portfolio-btn {
+  align-content: flex-start;
+}
+
+
 
 .main-btn-list .portfolio-btn + .portfolio-btn {
   margin-left: 24px;
@@ -31,7 +40,7 @@
 }
 
 .btn-item {
-  padding: 12px 24px;
+  padding: 8px 16px;
 
   color: $accent-color;
   background-color: $additional-background-color;

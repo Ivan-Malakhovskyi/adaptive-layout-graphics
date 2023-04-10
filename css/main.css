@@ -197,14 +197,7 @@ body {
 }
 @media screen and (max-width: 420px) {
   .link-contact-main {
-    display: block;
-    font-style: normal;
-    font-weight: 700;
     font-size: 24px;
-    line-height: 1.111;
-    letter-spacing: 0.02em;
-    color: #4d5ae5;
-    text-decoration: none;
   }
 }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -569,17 +562,17 @@ template {
 }
 @media screen and (min-width: 480px) {
   .container {
-    width: 428px;
+    max-width: 428px;
   }
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1158px;
+    max-width: 1158px;
   }
 }
 
@@ -728,12 +721,6 @@ template {
   padding: 0;
   border: none;
   background-color: transparent;
-}
-
-.list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -1595,8 +1582,8 @@ template {
 @media screen and (min-width: 768px) {
   .container-team {
     width: 768px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1709,40 +1696,13 @@ template {
   .soc-link-ing:focus {
     background-color: #404bbf;
   }
+  .container-team {
+    width: 1158px;
+  }
+  .list-img-team {
+    width: 264px;
+  }
 }
-.contacts {
-  padding: 0;
-  width: auto;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.section-text {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: #434455;
-  letter-spacing: 0.02em;
-}
-
-.section-caption {
-  margin: 0;
-  padding: 0;
-}
-
-.main-text {
-  margin-top: 0;
-}
-
 body {
   color: #434455;
   font-style: normal;
@@ -1789,12 +1749,6 @@ body {
   padding: 0;
   border: none;
   background-color: transparent;
-}
-
-.list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -2111,14 +2065,7 @@ body {
 }
 @media screen and (max-width: 420px) {
   .link-contact-main {
-    display: block;
-    font-style: normal;
-    font-weight: 700;
     font-size: 24px;
-    line-height: 1.111;
-    letter-spacing: 0.02em;
-    color: #4d5ae5;
-    text-decoration: none;
   }
 }
 /* *-----------------Buttons------------ */
@@ -2137,6 +2084,14 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  row-gap: 16px;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.main-btn-list .portfolio-btn {
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
 }
 
 .main-btn-list .portfolio-btn + .portfolio-btn {
@@ -2150,7 +2105,7 @@ body {
 }
 
 .btn-item {
-  padding: 12px 24px;
+  padding: 8px 16px;
   color: #4d5ae5;
   background-color: #f4f4fd;
   font-family: inherit;

@@ -28,6 +28,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
 
     .team {
@@ -99,7 +100,8 @@
     align-items: center;
     justify-content: space-between;
     }
-        
+    
+      
         
     .list-img-team:not(:last-child) {
     margin-bottom: 72px;
@@ -113,10 +115,13 @@
   @media screen and (min-width: 768px)  {
 
 
+    
+
+
     .container-team {
         width: 768px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 16px;
+        padding-right: 16px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -243,6 +248,15 @@
         background-color: $accent-page-color;
     }
 
+    .container-team {
+        width: 1158px;
+    }
+
+   
+
+                  .list-img-team {
+                    width: 264px;
+                  }
 
   }
 

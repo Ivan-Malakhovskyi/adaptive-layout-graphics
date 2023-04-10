@@ -7,32 +7,7 @@
 .section-item {
   margin-bottom: 72px;
 }
-.main-btn-list {
-  display: flex;
- flex-wrap: wrap;
-  row-gap: 16px;
-  align-content: flex-start;
- 
 
-}
-
-.main-btn-list .portfolio-btn {
-  align-content: flex-start;
-}
-
-
-
-.main-btn-list .portfolio-btn + .portfolio-btn {
-  margin-left: 24px;
-}
-
-// .btn-item {
-//   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-//     color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-//     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-//     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-//     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-// }
 
 .btn-item:hover,
 .btn-item:focus {
@@ -63,3 +38,82 @@
 
   border-color: transparent;
 }
+
+@media screen and (max-width: 767px) {
+  
+.main-btn-list {
+  max-width: 428px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    justify-content: flex-start;
+    max-width: 270px;
+    gap: 16px 24px;
+    
+  }
+    .section-item {
+      margin-bottom: 48px;
+    }
+
+   .portfolio-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   }
+
+
+}
+
+
+
+@media screen and (min-width: 768px) {
+  
+.main-btn-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+
+    .btn-item {
+      padding: 12px 24px;
+ 
+      text-align: center;
+      
+    }
+
+        .section-btn-list {
+          padding-top: 64px;
+          padding-bottom: 96px;
+        }
+
+        .section-item {
+        margin-bottom: 64px;
+        }
+
+
+}
+
+
+@media screen and (min-width: 1200px) {
+  
+  .section-btn-list {
+      padding-top: 100px;
+      padding-bottom: 120px;
+    }
+
+}
+
+// .main-btn-list .portfolio-btn + .portfolio-btn {
+//   margin-left: 24px;
+// }
+
+// .btn-item {
+//   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//     color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+// }

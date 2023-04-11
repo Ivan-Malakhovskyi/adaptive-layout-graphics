@@ -116,9 +116,10 @@
     border-color: transparent;
     line-height: 24px;
     padding: 8px 24px;
+    cursor: pointer;
     color: $main-bgrnd-color;
     margin-left: 24px;
-    // cursor: pointer;
+    
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -162,7 +163,10 @@
     margin-left: 16px;
 }
 
-
+.footer-link:hover,
+.footer-link:focus {
+    background-color: $bgd-color-icon;
+}
 
 
 @media screen and (max-width: 767px) {
@@ -204,6 +208,8 @@
     align-items: center;
 }
     
+
+
 }
 
 

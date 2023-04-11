@@ -15,7 +15,10 @@
     background-color: $title-text-color;
 }
 
-
+.footer-link:hover,
+.footer-link:focus {
+    background-color: $bgd-color-icon;
+}
 
 .footer .link-footer {
     font-family: "Raleway", sans-serif;
@@ -106,21 +109,22 @@
 
 }
 
-.btn-submit {
-    display: flex;
-    width: 165px;
-    height: 40px;
-    background-color: $accent-color;
-    border-radius: 4px;
-    border-color: transparent;
-    line-height: 24px;
-    padding: 8px 24px;
-    color: $main-bgrnd-color;
-    margin-left: 24px;
-    // cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+// .btn-submit {
+//     display: flex;
+//     width: 165px;
+//     height: 40px;
+//     background-color: $accent-color;
+//     border-radius: 4px;
+//     border-color: transparent;
+//     line-height: 24px;
+//     padding: 8px 24px;
+//     cursor: pointer;
+//     color: $main-bgrnd-color;
+//     margin-left: 24px;
+//     // cursor: pointer;
+//     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//         box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+// }
 
 
 .input-footer {

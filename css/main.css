@@ -802,6 +802,7 @@ template {
     margin-left: 40px;
   }
   .site-nav .item-list {
+    display: block;
     padding-top: 24px;
     padding-bottom: 24px;
   }

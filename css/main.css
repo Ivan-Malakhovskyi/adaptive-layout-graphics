@@ -2127,6 +2127,9 @@ template {
     font-size: 16px;
     line-height: 1.5;
   }
+  .portfolio-item:not(:last-child) {
+    margin-bottom: 48px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .portfolio-list {
